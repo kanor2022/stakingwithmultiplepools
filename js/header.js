@@ -9,7 +9,7 @@ const _API_URL = 'https://7yjhmmd390.execute-api.ap-south-1.amazonaws.com/prod'
 
 _CONTRACT_DATA[_NETWORK_ID] = {
     network_name: "Scroll Testnet",
-    explorer_url: 'https://sepolia.scrollscan.com/',
+    explorer_url: 'https://sepolia.scrollscan.com',
     STACKING: {
         sevenDays: {
             address: '0xa0889cF7b10973600C01eC1297f2f58dD6Bcf71f',
@@ -46,7 +46,7 @@ let isMetamaskConnected;
 
 let selectedAccount;
 
-let web3Main = new Web3('https://rpc.ankr.com/polygon');
+let web3Main = new Web3('https://sepolia-rpc.scroll.io');
 
 // Create an instance of Notyf
 var notyf = new Notyf({
