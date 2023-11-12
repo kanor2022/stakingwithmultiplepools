@@ -46,7 +46,7 @@ let isMetamaskConnected;
 
 let selectedAccount;
 
-let web3Main = new Web3('https://sepolia-rpc.scroll.io');
+let web3Main = new Web3('https://rpc.ankr.com/scroll_sepolia_testnet');
 
 // Create an instance of Notyf
 var notyf = new Notyf({
