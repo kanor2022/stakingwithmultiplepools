@@ -185,7 +185,7 @@ body .search-modal .search-block input {
   padding: 0 15px;
   background: transparent;
   border-width: 0 0 1px 0;
-  border-radius: 0;
+  border-radius: 10;
   border-color: rgba(255, 255, 255, 0.4);
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -14813,7 +14813,7 @@ div.latest-item .hover-shape-bg {
 
 /*--- Progress bar style ---*/
 .progress-line {
-  border-radius: 0px;
+  border-radius: 10px;
   position: relative;
   height: 8px;
   width: 100%;
